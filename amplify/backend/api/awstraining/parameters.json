@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "awstraining",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2024-11-06T13:17:36.260Z",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authawstraining81de6512",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

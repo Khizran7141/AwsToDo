@@ -1,0 +1,17 @@
+{
+  "resourceName": "toDoImg",
+  "policyUUID": "331c5698",
+  "bucketName": "awstraining66e5810e10b849b1aa380181a64423d2",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "groupAccess": {}
+}
